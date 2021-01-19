@@ -23,7 +23,8 @@ print(p_04+p_05)
 #(0.4,0.5)
 
 def ajout_point1d(point1, point2):
-  x = point1.x+point2.x
+  x = point1[0]+point2[0]
+  print(x)
   return Point1D(x)
 
 print(f"Addition ok :{ajout_point1d(p_04,p_05)} ")
