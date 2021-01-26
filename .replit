@@ -1,0 +1,4 @@
+language = "python3"
+run = "python -m unittest discover; python main.py"
+
+# Dans le run, on choisit ce que l'on veut exécuter
